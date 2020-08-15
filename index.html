@@ -1,23 +1,39 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>login</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
+<style>
+  body,html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.heading{
+  font-size:20px;
+  font-weight:bold;
+  }
+.flex-row{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+}
+.flex-row div {
+  background-color: rgb(17, 112, 112);
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+.flex-row  .container{
+box-shadow:10px 10px 5px rgba(0, 255, 255, 0.349),-10px -10px 5px rgba(25, 71, 71, 0.445);
+}
+.flex-row  .container-inset{
+box-shadow:inset -10px -10px 5px rgba(0, 255, 255, 0.349) , inset 10px 10px 5px rgba(19, 53, 53, 0.445);
+}
+</style>
 <body>
- <div class="wrapper">
-	<div class="container">
-		<h1>Welcome </h1>
-		
-		<form class="form" action="login">
-			<input type="text" name="email" placeholder="Email">
-			<input type="password" name="password" placeholder="Password">
-			<button type="submit" id="login-button">Login</button>
-			<h3><a href=signup.jsp style="text-decoration:none;color:white;">I don't have a account.</a></h3>
-		</form>
-	 </div>
+  <span class="heading">Neomorphism effect</span>
+  <div class="flex-row">
+    <div class="container"></div> &nbsp; &nbsp; &nbsp; &nbsp;
+    <div class="container-inset"></div>
   </div>
 </body>
-</html>
