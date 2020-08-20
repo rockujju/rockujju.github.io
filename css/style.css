@@ -1,7 +1,15 @@
-.nav-wrapper{
-    background-color: #4caf50;
+.nav-wrapper,.btn-read{
+    background-color: #02382E;
 }
 
 .slider .indicators .indicator-item.active{
-    background-color: #4caf50;
+    background-color: #02382E;
+}
+.move{
+    margin-top: 60px;
+}
+
+.parallax-container{
+    min-height: 380px;
+    height: auto;
 }
