@@ -1,0 +1,7 @@
+.nav-wrapper{
+    background-color: #01579b;
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: #01579b;
+}
