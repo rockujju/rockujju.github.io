@@ -1,12 +1,12 @@
 nav,.btn-read{
-    background-color:hsl(312, 33%, 3%) !important ;
+    background-color:#0A0509 !important ;
     top: 0;
     z-index: 2;
 }
 
 
 .slider .indicators .indicator-item.active{
-    background-color: #110706;
+    background-color: #0A0509;
 }
 nav{
     height: 80px !important;
