@@ -1,6 +1,9 @@
-.nav-wrapper,.btn-read{
-    background-color: #110706;
+nav,.btn-read{
+    background-color:hsl(312, 33%, 3%) !important ;
+    top: 0;
+    z-index: 2;
 }
+
 
 .slider .indicators .indicator-item.active{
     background-color: #110706;
@@ -31,12 +34,21 @@ body {
 main {
     flex: 1 0 auto;
 }
-.footer-color{
+.footer-color,.progress{
     background-color: #3e3e42 !important;
 }
-.footer-copyright-color{
-    background-color: black !important;
+.footer-copyright-color,.indeterminate{
+    background-color: #0A0509 !important;
 }
 .row{
     margin-bottom: 3px !important;
+}
+
+.carousel{
+    height: 450px;
+    
+}
+.carousel-item {
+    height: 400px !important;
+    width: 450px !important;
 }
