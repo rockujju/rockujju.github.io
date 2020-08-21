@@ -1,9 +1,17 @@
 .nav-wrapper,.btn-read{
-    background-color: #02382E;
+    background-color: #110706;
 }
 
 .slider .indicators .indicator-item.active{
-    background-color: #02382E;
+    background-color: #110706;
+}
+nav{
+    height: 80px !important;
+    line-height: 80px !important;
+}
+
+.fintro .slider .indicators {
+display: none;
 }
 .move{
     margin-top: 60px;
