@@ -3,7 +3,9 @@ nav,.btn-read{
     top: 0;
     z-index: 2;
 }
-
+.fintro .caption{
+    font-family: 'Courgette', cursive;
+}
 
 .slider .indicators .indicator-item.active{
     background-color: #0A0509;
